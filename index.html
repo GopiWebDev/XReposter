@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XReposter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>XReposter</h1>
+      <p>Post any X / twitter media without downloading</p>
+      <div id="input-group">
+        <input
+          type="url"
+          id="userInput"
+          required
+          placeholder="Paste the X/Twitter link here"
+        />
+        <button id="submitBtn" type="submit" class="stooltip">
+          <span class="stooltiptext">Click to send</span>
+          <span class="material-symbols-outlined">send</span>
+        </button>
+      </div>
+      <div id="resultDiv">
+        <input
+          type="text"
+          id="result"
+          readonly
+          placeholder="Click the copy button to copy"
+        />
+        <button id="copyBtn" class="ctooltip">
+          <span class="ctooltiptext">Click to copy</span>
+          <span class="material-symbols-outlined">content_copy</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
